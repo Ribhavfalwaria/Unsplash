@@ -1,0 +1,318 @@
+.parent {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.nav {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 62px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.a2KGe {
+  align-items: center;
+  display: flex;
+  margin-top: -2px;
+  text-decoration: none;
+}
+
+.inputparent {
+  flex-grow: 1;
+}
+
+.forminput1 {
+  border: 1px solid #0000;
+  border-radius: 24px;
+  height: 40px;
+  font-size: 14px;
+  color: #111;
+  position: relative;
+  background-color: #eee;
+  display: flex;
+  transition: all 0.1s ease-in-out;
+}
+
+.inptsearch {
+  display: flex;
+  align-items: center;
+  background-color: initial;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  line-height: inherit;
+}
+button {
+  color: inherit;
+  cursor: pointer;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.inptsearchsvg {
+  height: 20px;
+  width: 20px;
+  padding-left: 14px;
+  fill: #767676;
+  box-sizing: initial;
+  transition: fill 0.1s ease-in-out;
+}
+.inptsearchtext {
+  display: flex;
+  flex-grow: 1;
+}
+
+.inptsearchtextinput {
+  -webkit-appearance: none;
+  box-shadow: none;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  background: none;
+  border: none;
+  color: #111;
+  flex-grow: 1;
+  width: 100%;
+}
+.divider {
+  background-color: #d1d1d1;
+  content: "";
+  height: 32px;
+  width: 1px;
+}
+
+.loginsignup {
+  align-items: center;
+  color: #767676;
+  display: flex;
+}
+
+.loginsignup > a {
+  font-size: 14px;
+  color: #767676;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 11px;
+  fill: currentColor;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  font-weight: 500;
+  background-color: initial;
+}
+.rMj7l {
+  display: grid;
+  row-gap: 8px;
+}
+
+.inptqrdesign {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: initial;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+
+.inptqrdesignsvg {
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 20px;
+  width: 20px;
+  fill: #767676;
+  box-sizing: initial;
+  transition: fill 0.1s ease-in-out;
+}
+
+.inputrightlist {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.inputrightlistlistitems {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  padding: 20px 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.inputrightlistlistitems > a {
+  text-decoration: none;
+  color: #767676;
+}
+
+.submitphotobtn {
+  /* background-color: #eee;
+  border-color: #0000;
+  color: #767676;
+  cursor: not-allowed;
+  font-size: 14px;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 11px;
+  box-shadow: 0 1px 1px #0000000a;
+  fill: currentColor;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  font-weight: 500;
+  user-select: none;
+  white-space: nowrap; */
+
+  background-color: #fff;
+  color: #767676;
+  font-size: 14px;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 11px;
+  box-shadow: 0 1px 1px #0000000a;
+  fill: currentColor;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.notificationbelldiv {
+  display: inline-block;
+}
+
+.notificationbellbutton {
+  height: 100%;
+  fill: #767676;
+  line-height: 17px;
+  padding: 3px 12px;
+  position: relative;
+  transition: all 0.1s ease-in-out;
+  background-color: initial;
+  border: none;
+  text-align: inherit;
+}
+
+.notificationbellbuttonsvg {
+  height: 24px;
+  width: 24px;
+}
+
+.profilediv {
+  display: inline-block;
+}
+
+.profiledivbutton {
+  height: 100%;
+  background-color: initial;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+
+.imgsuperparent {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imgparent {
+  position: relative;
+}
+
+.profileimg {
+  background-color: #eee;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  border: none;
+  vertical-align: middle;
+}
+.threelineicondiv {
+  display: inline-block;
+}
+
+.threelineiconbtn {
+  height: 100%;
+  position: relative;
+  fill: currentColor;
+  color: #767676;
+  line-height: 1;
+  padding-left: 4px;
+  padding-right: 4px;
+  transition: color 0.1s ease-in-out;
+  vertical-align: middle;
+  background-color: initial;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+
+.threeicondivbtnspan {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  right: 2px;
+  background-color: #e25c3d;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: none;
+  pointer-events: none;
+}
+
+.threeicondivbtnsvg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
