@@ -38,7 +38,7 @@ export default function Content() {
             <img
               alt="hello"
               role="presentation"
-              style={{ width: "auto", maxWidth: "1265px" }}
+              style={{ width: "100%" }}
               src="https://images.unsplash.com/photo-1658563309427-6e703a70203c?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1vZi10aGUtZGF5fHx8fGVufDB8fHx8&amp;auto=format%2Ccompress&amp;fit=crop&amp;w=1000&amp;h=1000"
             />
           </picture>

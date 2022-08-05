@@ -93,10 +93,57 @@ export default function Subheader() {
                     </li>
                     <li
                       className={styles.containercontentulli}
-                      style={{ opacity: "0.3" }}
+                     
                     >
                       <a href="/#" className={styles.containercontentullia}>
                         <span style={{ fontWeight: "500" }}>Food</span>
+                      </a>
+                    </li>
+                    <li
+                      className={styles.containercontentulli}
+                     
+                    >
+                      <a href="/#" className={styles.containercontentullia}>
+                        <span style={{ fontWeight: "500" }}>Health</span>
+                      </a>
+                    </li>
+                    <li
+                      className={styles.containercontentulli}
+                      
+                    >
+                      <a href="/#" className={styles.containercontentullia}>
+                        <span style={{ fontWeight: "500" }}>People</span>
+                      </a>
+                    </li>
+                    <li
+                      className={styles.containercontentulli}
+                     
+                    >
+                      <a href="/#" className={styles.containercontentullia}>
+                        <span style={{ fontWeight: "500" }}>Interior</span>
+                      </a>
+                    </li>
+                    <li
+                      className={styles.containercontentulli}
+                    
+                    >
+                      <a href="/#" className={styles.containercontentullia}>
+                        <span style={{ fontWeight: "500" }}>Street Photography</span>
+                      </a>
+                    </li>
+                    <li
+                      className={styles.containercontentulli}
+                    >
+                      <a href="/#" className={styles.containercontentullia}>
+                        <span style={{ fontWeight: "500" }}>Travel</span>
+                      </a>
+                    </li>
+                    <li
+                      className={styles.containercontentulli}
+                      style={{ opacity: "0.3" }}
+                    >
+                      <a href="/#" className={styles.containercontentullia}>
+                        <span style={{ fontWeight: "500" }}>Animal</span>
                       </a>
                     </li>
                     <div className={styles.rbtndiv}>
